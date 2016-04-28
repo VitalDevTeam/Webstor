@@ -21,5 +21,9 @@ build:
   - 'image'
   - 'content'
 
-default:
+dev:
+  - 'connect'
   - 'watch'
+
+default:
+  - 'dev'
