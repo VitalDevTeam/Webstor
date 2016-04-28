@@ -10,7 +10,7 @@
   "license": "ISC",
   "scripts": {
     "build": "grunt build",
-    "dev": "grunt newer:build; node server.js; grunt watch"
+    "dev": "grunt build; node server.js; grunt watch"
   },
   "repository": {
     "type": "git",
