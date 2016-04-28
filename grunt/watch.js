@@ -7,5 +7,9 @@ module.exports = {
 	css: {
 		files: ['src/sass/**/*.scss'],
 		tasks: ['css']
+	},
+	content: {
+		files: ['src/content/**/*'],
+		tasks: ['copy']
 	}
 };
