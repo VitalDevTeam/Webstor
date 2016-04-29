@@ -15,5 +15,8 @@ module.exports = {
 	content: {
 		files: ['src/content/**/*'],
 		tasks: ['copy']
-	}
+	},
+    grunt: {
+        files: ['grunt/*', 'Gruntfile.js']
+    }
 };
