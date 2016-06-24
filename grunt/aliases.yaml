@@ -1,6 +1,8 @@
 js:
-  - 'jshint'
-  - 'concat'
+  - 'eslint'
+  - 'browserify'
+  - 'concat:distFirstPass'
+  - 'concat:distSecondPass'
   - 'uglify'
 
 css:
@@ -14,6 +16,7 @@ content:
   - 'copy'
 
 build:
+  - 'env:dist'
   - 'clean'
   - 'js'
   - 'css'

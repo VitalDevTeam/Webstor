@@ -1,0 +1,21 @@
+{
+    "parserOptions": {
+        "ecmaVersion": 6,
+        "sourceType": "module",
+        "ecmaFeatures": {
+            "jsx": true
+        }
+    },
+    "extends": "eslint:recommended",
+    "rules": {
+        "no-unused-vars": "warn",
+        "no-console": "off"
+    },
+    "globals": {
+        "console": true,
+        "document": true,
+        "window": true,
+        "jQuery": true
+    },
+    "plugins": [ "react" ]
+}
